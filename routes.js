@@ -17,5 +17,4 @@ routes.get('/developers/:id',getOneDev(connection))
 
 routes.delete('/developers/:id',removeDev(connection))
 
-
 module.exports = routes;
